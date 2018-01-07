@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+/*Main styles*/
+
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-size: 10px;	
+	background: rgba(0,0,0,0.8);
+}
+
+body{
+	font-family: 'Merriweather', serif;
+	font-size: 1.4rem;
+	color: #f0f0f0;
+	background: #F2F2F2;
+	line-height: 20px;
+}
+
+img{
+	max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Merriweather', serif;
+}
+
+a{
+	text-decoration: none;
+	color: #f0f0f0;
+	cursor: pointer;
+}
+a:hover{
+	text-decoration: none;
+	color: #f3c100;
+	cursor: pointer;
+}
+ a:focus {
+    color: #f3c100;
+    text-decoration: none;
+}
+.logo{
+	background-size: 20px 22px;
+    background-repeat: no-repeat;
+    background-image: url("Apple_logo.png");
+    background-position: center 0;
+    height: 24px;
+}
+.ac-gn-link-text{
+	overflow: hidden;
+	-webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+}
+.list-inline li{
+	display: inline-block;
+    padding-right: 90px;
+}
+/*Social-------------------------------*/
+.social{
+	margin-bottom: 0px;
+}
+.social li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 15px;
+}
+.social .fa{
+	width: 25px;
+	font-size: 2.6rem;
+	color:  #f0f0f0;
+	text-align: center;
+}
+.social .fa:hover{
+	color: #f3c100;
+}
+/*Social-------------------------------*/
+/*FQA and Modal-------------------------------*/
+#FQA:hover{
+	cursor: pointer;
+	color: #f3c100;
+}
+.modal-title{
+	color: black;
+}
+.modal-body{
+	color: black;
+}
+/*FQA and Modal-------------------------------*/
+/*Slider---------------------------------------------*/
+.carousel-caption{
+	color: #f0f0f0;
+}
+/*Slider---------------------------------------------*/
+
+.main_width{
+	/*max-width: 1170px;*/
+	margin: 0 auto;
+}
+.row{
+	min-width: auto;
+    height: 48px;
+    max-height: 44px;
+    background: #333;
+    background: rgba(0,0,0,0.8);
+    font-size: 17px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+/*Описать хедер, маин, футер
+}*/
+main{
+	background: rgba(0,0,0,0.8); 
+}
+
+#News{
+	font-size: 12px;
+	color: #f0f0f0;
+	padding: 35px;
+	/*height: 258px;*/
+	max-height: 258px;
+	border-right: 1px solid;
+
+}
+
+.Statistics{
+	font-size: 12px;
+	color: #f0f0f0;
+	padding: 35px;
+	max-height: 258px;
+	height: 258px;
+	border-right: 1px solid;
+}
+.double{
+	padding: 0px;
+}
+#About_us{
+	font-size: 12px;
+	color: #f0f0f0;
+	padding: 35px;
+}
+#Other{
+	font-size: 12px;
+	color: #f0f0f0;
+	padding: 35px;
+}
+footer{
+	background: rgba(0,0,0,0.8);
+}
+.copyright{
+	font-size: 12px;
+	text-align: center;
+	color: #f0f0f0;
+}
+#obz{
+	display: none;
+}
+#obz1{
+	display: none;
+}
+#obz2{
+	display: none;
+}
